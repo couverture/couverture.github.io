@@ -1,5 +1,6 @@
 url: https://couverture.github.io
 baseurl: 
+appurl: http://app.couverture.io/sign-in
 
 # Site settings
 title: couverture.io
