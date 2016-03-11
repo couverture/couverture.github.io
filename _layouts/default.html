@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% if jekyll.environment == 'development' %}
+        {% assign app_signin = site.app_signin_dev %}
+    {% else %}
+        {% assign app_signin = site.app_signin_prod %}
+    {% endif %}
+
+
+    {% include head.html %}
 
 
     <body id="page-top" class="index">

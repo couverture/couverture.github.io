@@ -1,11 +1,12 @@
 url: https://couverture.github.io
 baseurl: 
-appurl: http://app.couverture.io/sign-in
+app_signin_dev: http://localhost:6543/sign-in
+app_signin_prod: https://app.couverture.io/sign-in
 
 # Site settings
-title: couverture.io
+title: Couverture
 email: support@couverture.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Couverture.io is a differential code coverage as a service"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
