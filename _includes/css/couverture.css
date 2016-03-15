@@ -1,0 +1,12 @@
+img.screenshot {
+    margin: 50px 0;
+}
+
+.highlight > pre {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.highlight pre code {
+    color: #efefef;
+}
