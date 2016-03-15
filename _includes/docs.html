@@ -20,7 +20,7 @@
 
                 <div class="col-md-offset-3 col-md-6">
                     <h4>Upload coverage reports</h4>
-                    <p class="text-muted text-justify">Now it's time to upload your coverage reports. We currently support Cobertura reports (XML files). Almost all programming languages have tools to generate Cobertura reports. Oh, and here's a sample <code>curl</code> command to run after your tests have generated the Cobertura report.</p>
+                    <p class="text-muted text-justify">Now it's time to upload your coverage reports. We currently support Cobertura reports, an XML file format. Almost all programming languages have tools to generate Cobertura reports. Oh, and here's a sample <code>curl</code> command to run after your tests have generated the Cobertura report.</p>
                 </div>
 
                 <div class="col-md-offset-1 col-md-10 text-left">
@@ -50,7 +50,8 @@ $ curl \
                 </div>
                 <div class="col-md-offset-3 col-md-6">
                     <h4>Differential coverage reports</h4>
-                    <p class="text-muted text-justify">Now there's really nothing else to do but to wait for Couverture to generate and publish a differential coverage report to your pull request. The coverage report status will either be <code>SUCCEEDED</code> or <code>FAILED</code> and the commit status of your pull request will reflected appropriately. There are two possible reason in case of failure: 1) the coverage has dropped or 2) coverage has improved but not all code changes are covered. This information is displayed on the report itself.</p>
+                    <p class="text-muted text-justify">Now there's really nothing else to do but to wait for Couverture to generate and publish a differential coverage report to your pull request. The coverage report status will either be <code>SUCCEEDED</code> or <code>FAILED</code> and the commit status of your pull request will be reflected appropriately. There are two possible reason in case of failure: 1) the coverage has dropped or 2) coverage has improved but not all code changes are covered.</p>
+                    <p class="text-muted text-justify">Your report may warn you that the base coverage was not found. This means that no coverage reports was uploaded for the branch you are trying to merge into and may cause the differential report to not display some coverage changes.</p>
                 </div>
             </div>
         </div>
