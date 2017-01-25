@@ -6,7 +6,7 @@ app_signin_prod: https://app.couverture.io/sign-in
 # Site settings
 title: Couverture
 email: support@couverture.io
-description: "Couverture is a differential code coverage service that publishes reports directly to your pull requests and highlights the parts of your source code that need testing."
+description: "Couverture is a differential code coverage service that publishes coverage reports to your pull requests and highlights the parts of your source code that need testing."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
