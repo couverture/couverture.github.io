@@ -20,7 +20,9 @@
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
-    {% include analytics.html %}
+    {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
 
     </body>
 </html>
