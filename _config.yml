@@ -4,7 +4,7 @@ app_signin_dev: http://localhost:6543/sign-in
 app_signin_prod: https://app.couverture.io/sign-in
 
 # Site settings
-title: Couverture
+title: Couverture (beta)
 email: support@couverture.io
 description: "Couverture is a differential code coverage service that publishes coverage reports to your pull requests and highlights the parts of your source code that need testing."
 
