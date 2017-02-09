@@ -56,6 +56,8 @@ social:
     url: https://twitter.com/couvertureio
   - title: envelope
     url: mailto:support@couverture.io
+  - title: slack
+    url: https://couverture-io.slack.com
 
 # Postal address (add as many lines as necessary)
 address:
